@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/sdpcr/__init__.py
+src/sdpcr.egg-info/PKG-INFO
+src/sdpcr.egg-info/SOURCES.txt
+src/sdpcr.egg-info/dependency_links.txt
+src/sdpcr.egg-info/requires.txt
+src/sdpcr.egg-info/top_level.txt
+src/sdpcr/core/__init__.py
+src/sdpcr/io/__init__.py
+src/sdpcr/models/__init__.py
+src/sdpcr/ui/__init__.py

@@ -1,0 +1,25 @@
+[project]
+name = "sdpcr"
+version = "0.1.0"
+description = "A simulator for droplet and microwell dPCR."
+authors = [
+	{ name = "GLC", email = "gabriel.lopez.candales@gmail.com" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = [
+	"numpy",
+	"matplotlib",
+	"pandas"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tools.setuptools]
+package-dir = { "" = "src" }
+
+[tools.setuptools.packages.find]
+where = ["src"]
