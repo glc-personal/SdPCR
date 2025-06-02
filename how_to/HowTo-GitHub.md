@@ -5,6 +5,15 @@ This guide goes over how to use GitHub for this project.
 ## Check which branch you are on
 `git branch`
 
+## Fetch all remote branches (including Jira created ones)
+`git fetch origin`
+
+## List all remote branches to confirm the branch name you want
+`git branch -r`
+
+## Checkout the branch (and create the new branch locally tracking the remote one `-b`)
+`git checkout -b <branch-name>`
+
 ## Checkout a branch (e,g, using main)
 `git checkout main`
 

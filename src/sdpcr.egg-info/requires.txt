@@ -1,3 +1,10 @@
 numpy
 matplotlib
 pandas
+
+[dev]
+pytest
+pytest-cov
+black
+ruff
+mypy
